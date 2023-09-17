@@ -8,16 +8,16 @@ In the rapidly evolving world of E-Commerce, making informed architectural decis
 
 ## Table of Contents
 
-1. [Choice Between SaaS and Custom Components](./ADR-001:%20Choice%20Between%20SaaS%20and%20Custom%20Components%20for%20E-Commerce%20Platform%20Architecture)
-2. [Security and CI/CD Integration](./adrs/ADR-002.md)
-3. [Authentication Methods and Compliance](./adrs/ADR-003.md)
-4. [Integration with CI/CD Tools](./adrs/ADR-004.md)
-5. [Content Localization](./adrs/ADR-005.md)
-6. [Fiscal and Tax Compliance](./adrs/ADR-006.md)
-7. [Logistics and Delivery](./adrs/ADR-007.md)
-8. [Multilingual Customer Support](./adrs/ADR-008.md)
-9. [Integration with Artificial Intelligence Solutions](./adrs/ADR-009.md)
-10. [Implementation of Chatbots for Customer Support](./adrs/ADR-010.md)
+1. [Choice Between SaaS and Custom Components](./ADR-001:%20Choice%20Between%20SaaS%20and%20Custom%20Components%20for%20E-Commerce%20Platform%20Architecture.md)
+2. [Security and CI/CD Integration](./ADR-002:%20Security%20and%20CI-CD%20Integration.md)
+3. [Authentication Methods and Compliance](./ADR-003:%20Authentication%20Methods%20and%20Compliance.md)
+4. [Integration with CI/CD Tools](./ADR-004:%20Integration%20with%20CI-CD%20Tools.md)
+5. [Content Localization](./ADR-005:%20Content%20Localization.md)
+6. [Fiscal and Tax Compliance](./ADR-006:%20Fiscal%20and%20Tax%20Compliance.md)
+7. [Logistics and Delivery](./ADR-007:%20Logistics%20and%20Delivery.md)
+8. [Multilingual Customer Support](./ADR-008:%20Multilingual%20Customer%20Support.md)
+9. [Integration with Artificial Intelligence Solutions](./ADR-009:%20Integration%20with%20Artificial%20Intelligence%20Solutions.md)
+10. [Implementation of Chatbots for Customer Support](./ADR-010:%20Implementation%20of%20Chatbots%20for%20Customer%20Support.md)
 
 ## Contributing
 

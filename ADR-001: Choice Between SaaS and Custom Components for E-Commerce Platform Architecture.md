@@ -18,8 +18,21 @@ After careful consideration, we have decided to adopt a hybrid approach that com
 
 6. **Maintenance and Updates:** Regular maintenance and updates are essential. Custom components will have dedicated teams for maintenance, while SaaS solutions will be evaluated based on their reliability and update frequency.
 
+7. **SLA Metrics:** In addition to the criteria mentioned above, we will consider SLA (Service Level Agreement) metrics for both SaaS and custom solutions, especially when the availability of the system is crucial for the business. We will define SLA metrics as follows:
+
+   - For SaaS Solution:
+     - Target Availability: We aim for a 99.9% availability SLA, which is considered an acceptable standard for many critical SaaS services. This translates to approximately 8.76 hours of downtime per year.
+     - Recovery Time Objective (RTO): We will also define a short RTO to minimize business impact, e.g., a 1-hour RTO for critical services.
+     - Support and Escalation: We will ensure that the SaaS provider offers adequate support, including response times and escalation procedures.
+
+   - For Custom Solution:
+     - Internal Goals: We will assess our specific business needs and set internal availability goals that may exceed market SLAs. For example, we may target a 99.99% availability (approximately 52.56 minutes of downtime per year) or higher.
+     - Response Time: We will establish metrics for response time in case of failures and determine how long our team will take to resolve critical issues.
+     - Monitoring and Maintenance: Solid monitoring and maintenance practices will be implemented to minimize unplanned downtime.
+     - Internal Support: Our team will have the capacity and necessary processes for internal support, including escalation for severe issues.
+
 **Reason:**
-This hybrid approach allows us to harness the advantages of both SaaS and custom development. It provides the flexibility to address market-specific needs, maintain high levels of security and compliance, integrate effectively, and optimize costs while ensuring scalability and efficient maintenance.
+This hybrid approach allows us to harness the advantages of both SaaS and custom development while considering critical SLA metrics. It provides the flexibility to address market-specific needs, maintain high levels of security and compliance, integrate effectively, optimize costs, ensure scalability, and meet availability requirements.
 
 **Consequences:**
 - Customization and localization capabilities.
@@ -28,3 +41,4 @@ This hybrid approach allows us to harness the advantages of both SaaS and custom
 - Scalability and performance optimization.
 - Cost-effective architecture.
 - Maintenance and updates as per best practices.
+- Defined SLA metrics to ensure system availability.

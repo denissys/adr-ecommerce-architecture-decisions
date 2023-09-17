@@ -8,7 +8,7 @@ In the rapidly evolving world of E-Commerce, making informed architectural decis
 
 ## Table of Contents
 
-1. [Choice Between SaaS and Custom Components](./adrs/ADR-001.md)
+1. [Choice Between SaaS and Custom Components](./ADR-001:%20Choice%20Between%20SaaS%20and%20Custom%20Components%20for%20E-Commerce%20Platform%20Architecture)
 2. [Security and CI/CD Integration](./adrs/ADR-002.md)
 3. [Authentication Methods and Compliance](./adrs/ADR-003.md)
 4. [Integration with CI/CD Tools](./adrs/ADR-004.md)

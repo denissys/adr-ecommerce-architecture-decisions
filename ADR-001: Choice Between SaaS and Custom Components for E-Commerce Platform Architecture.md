@@ -16,20 +16,40 @@ After careful consideration, we have decided to adopt a hybrid approach that com
 
 5. **Cost-Efficiency:** We will conduct a thorough cost-benefit analysis to determine where custom development provides a competitive advantage and where SaaS solutions offer cost-efficiency.
 
-6. **Maintenance and Updates:** Regular maintenance and updates are essential. Custom components will have dedicated teams for maintenance, while SaaS solutions will be evaluated based on their reliability and update frequency.
+6. **Maintenance and Updates:**
+
+   Ensuring the long-term stability and effectiveness of our E-Commerce platform is a top priority. This includes regular maintenance and updates to keep the system running smoothly and securely. Our approach to maintenance and updates will vary depending on whether we are dealing with custom components or SaaS solutions:
+
+   - **Custom Components:** We will establish dedicated teams responsible for the maintenance of custom-built components. These teams will follow best practices for software maintenance, including:
+
+     - **Patch Management:** Regularly applying patches and updates to address security vulnerabilities and improve performance.
+     - **Bug Fixes:** Promptly addressing and resolving any reported bugs or issues.
+     - **Compatibility Testing:** Ensuring that custom components remain compatible with evolving technologies, such as updated libraries, programming languages, and third-party integrations.
+     - **Version Control:** Implementing version control practices to track changes and updates to custom components.
+     - **Documentation:** Maintaining up-to-date documentation that describes the architecture and functionality of custom components.
+
+   - **SaaS Solutions:** When it comes to SaaS solutions, we will evaluate providers based on their track record of reliability and their update frequency. Key considerations include:
+
+     - **Reliability:** Assessing the historical uptime and reliability of the SaaS provider's services to ensure they align with our availability goals.
+     - **Update Frequency:** Evaluating how frequently the SaaS provider releases updates and new features. Frequent updates can indicate a commitment to improving their service, but we will also consider the potential impact on our platform.
+     - **Scheduled Downtime:** Understanding the provider's policy regarding scheduled maintenance and downtime and ensuring that it aligns with our business operations.
+
+   Regardless of whether we are dealing with custom components or SaaS solutions, a comprehensive monitoring system will be in place to proactively identify and address potential issues. This includes real-time performance monitoring, error tracking, and automated alerting to notify our teams of any anomalies.
+
+   The goal is to minimize unplanned downtime, ensure the security of our platform, and provide a seamless shopping experience for our customers. Regular communication and coordination between maintenance teams, development teams, and operational teams will be a cornerstone of our maintenance strategy.
 
 7. **SLA Metrics:** In addition to the criteria mentioned above, we will consider SLA (Service Level Agreement) metrics for both SaaS and custom solutions, especially when the availability of the system is crucial for the business. We will define SLA metrics as follows:
 
    - For SaaS Solution:
-     - Target Availability: We aim for a 99.9% availability SLA, which is considered an acceptable standard for many critical SaaS services. This translates to approximately 8.76 hours of downtime per year.
-     - Recovery Time Objective (RTO): We will also define a short RTO to minimize business impact, e.g., a 1-hour RTO for critical services.
-     - Support and Escalation: We will ensure that the SaaS provider offers adequate support, including response times and escalation procedures.
+     - **Target Availability:** We aim for a 99.9% availability SLA, which is considered an acceptable standard for many critical SaaS services. This translates to approximately 8.76 hours of downtime per year.
+     - **Recovery Time Objective (RTO):** We will also define a short RTO to minimize business impact, e.g., a 1-hour RTO for critical services.
+     - **Support and Escalation:** We will ensure that the SaaS provider offers adequate support, including response times and escalation procedures.
 
    - For Custom Solution:
-     - Internal Goals: We will assess our specific business needs and set internal availability goals that may exceed market SLAs. For example, we may target a 99.99% availability (approximately 52.56 minutes of downtime per year) or higher.
-     - Response Time: We will establish metrics for response time in case of failures and determine how long our team will take to resolve critical issues.
-     - Monitoring and Maintenance: Solid monitoring and maintenance practices will be implemented to minimize unplanned downtime.
-     - Internal Support: Our team will have the capacity and necessary processes for internal support, including escalation for severe issues.
+     - **Internal Goals:** We will assess our specific business needs and set internal availability goals that may exceed market SLAs. For example, we may target a 99.99% availability (approximately 52.56 minutes of downtime per year) or higher.
+     - **Response Time:** We will establish metrics for response time in case of failures and determine how long our team will take to resolve critical issues.
+     - **Monitoring and Maintenance:** Solid monitoring and maintenance practices will be implemented to minimize unplanned downtime.
+     - **Internal Support:** Our team will have the capacity and necessary processes for internal support, including escalation for severe issues.
 
 **Reason:**
 This hybrid approach allows us to harness the advantages of both SaaS and custom development while considering critical SLA metrics. It provides the flexibility to address market-specific needs, maintain high levels of security and compliance, integrate effectively, optimize costs, ensure scalability, and meet availability requirements.

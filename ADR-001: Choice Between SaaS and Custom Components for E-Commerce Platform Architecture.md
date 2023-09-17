@@ -8,23 +8,23 @@ After careful consideration, we have decided to adopt a hybrid approach that com
 
 1. **Customization and Localization:** We recognize the need for customization to meet the specific requirements of different markets, including content localization, compliance with regional regulations, and adaptable user experiences. Custom components will be developed to address these market-specific needs.
 
-2. **Security and Compliance for SaaS Solutions:**
+2. **Security and Compliance for Both SaaS and Custom Components:**
 
-   - **Robust Security Features:** We will evaluate SaaS solutions for their ability to provide robust security features such as encryption, access controls, and threat detection. The chosen solutions must meet our stringent security requirements.
+   - **Robust Security Features:** We will evaluate SaaS solutions for their ability to provide robust security features such as encryption, access controls, and threat detection. Similarly, custom components will be designed with a strong focus on security.
 
-   - **Compliance Certifications:** SaaS providers will be assessed based on their compliance certifications, especially in critical areas like user authentication, data protection, and privacy regulations. The selected solutions must align with industry standards and regulations.
+   - **Compliance Certifications:** SaaS providers will be assessed based on their compliance certifications, especially in critical areas like user authentication, data protection, and privacy regulations. Custom components will adhere to industry standards and regulations.
 
-3. **Integration and CI/CD for SaaS Solutions:**
+3. **Integration and CI/CD for Both SaaS and Custom Components:**
 
-   - **CI/CD Integration:** We will prioritize SaaS solutions that seamlessly integrate with our chosen CI/CD tools, ensuring a smooth development and deployment pipeline. Compatibility with tools like Jenkins, GitLab CI/CD, and others will be considered.
+   - **CI/CD Integration:** We will prioritize SaaS solutions that seamlessly integrate with our chosen CI/CD tools, ensuring a smooth development and deployment pipeline. Custom components will also be integrated into our CI/CD processes.
 
 4. **Scalability and Performance for Both SaaS and Custom Components:**
 
-   - **Horizontal and Vertical Scaling:** The architecture will be designed to accommodate both horizontal and vertical scaling. We will assess the scalability options provided by SaaS solutions and ensure that custom components are optimized for performance and scalability.
+   - **Horizontal and Vertical Scaling:** The architecture will be designed to accommodate both horizontal and vertical scaling for both SaaS solutions and custom components. We will assess the scalability options provided by SaaS solutions and ensure that custom components are optimized for performance and scalability.
 
-5. **Cost-Efficiency for SaaS Solutions:**
+5. **Cost-Efficiency for Both SaaS and Custom Components:**
 
-   - **Cost-Benefit Analysis:** We will conduct a comprehensive cost-benefit analysis to identify areas where adopting SaaS solutions offers cost-efficiency. This analysis will consider factors such as licensing costs, maintenance expenses, and scalability benefits.
+   - **Cost-Benefit Analysis:** We will conduct a comprehensive cost-benefit analysis to identify areas where adopting SaaS solutions or custom development provides a competitive advantage. This analysis will consider factors such as licensing costs, maintenance expenses, and scalability benefits for both options.
 
 6. **Maintenance and Updates:**
 
@@ -48,14 +48,16 @@ After careful consideration, we have decided to adopt a hybrid approach that com
 
    The goal is to minimize unplanned downtime, ensure the security of our platform, and provide a seamless shopping experience for our customers. Regular communication and coordination between maintenance teams, development teams, and operational teams will be a cornerstone of our maintenance strategy.
 
-7. **SLA Metrics:** In addition to the criteria mentioned above, we will consider SLA (Service Level Agreement) metrics for both SaaS and custom solutions, especially when the availability of the system is crucial for the business. We will define SLA metrics as follows:
+7. **SLA Metrics for Both SaaS and Custom Components:**
 
-   - For SaaS Solution:
+   In addition to the criteria mentioned above, we will consider SLA (Service Level Agreement) metrics for both SaaS and custom solutions, especially when the availability of the system is crucial for the business. We will define SLA metrics as follows:
+
+   - **For SaaS Solution:**
      - **Target Availability:** We aim for a 99.9% availability SLA, which is considered an acceptable standard for many critical SaaS services. This translates to approximately 8.76 hours of downtime per year.
      - **Recovery Time Objective (RTO):** We will also define a short RTO to minimize business impact, e.g., a 1-hour RTO for critical services.
      - **Support and Escalation:** We will ensure that the SaaS provider offers adequate support, including response times and escalation procedures.
 
-   - For Custom Solution:
+   - **For Custom Solution:**
      - **Internal Goals:** We will assess our specific business needs and set internal availability goals that may exceed market SLAs. For example, we may target a 99.99% availability (approximately 52.56 minutes of downtime per year) or higher.
      - **Response Time:** We will establish metrics for response time in case of failures and determine how long our team will take to resolve critical issues.
      - **Monitoring and Maintenance:** Solid monitoring and maintenance practices will be implemented to minimize unplanned downtime.
@@ -66,9 +68,9 @@ This hybrid approach allows us to harness the advantages of both SaaS and custom
 
 **Consequences:**
 - Customization and localization capabilities.
-- Strong security and compliance measures.
+- Strong security and compliance measures for both SaaS and custom components.
 - Effective integration with CI/CD processes.
-- Scalability and performance optimization.
+- Scalability and performance optimization for both options.
 - Cost-effective architecture.
 - Maintenance and updates as per best practices.
 - Defined SLA metrics to ensure system availability.

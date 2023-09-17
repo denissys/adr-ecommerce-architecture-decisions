@@ -55,7 +55,7 @@ After careful consideration, we have decided to adopt a hybrid approach that com
    - **For SaaS Solution:**
      - **Target Availability:** We aim for a 99.9% availability SLA, which is considered an acceptable standard for many critical SaaS services. This translates to approximately 8.76 hours of downtime per year.
      - **Recovery Time Objective (RTO):** We will also define a short RTO to minimize business impact, e.g., a 1-hour RTO for critical services.
-     - **Support and Escalation:** We will ensure that the SaaS provider offers adequate support, including response times and escalation procedures.
+     - **Support and Escalation:** We will ensure that the SaaS provider offers adequate support, including response times and escalation procedures. Language proficiency, particularly in English, will be considered to facilitate effective communication during incidents and crises.
 
    - **For Custom Solution:**
      - **Internal Goals:** We will assess our specific business needs and set internal availability goals that may exceed market SLAs. For example, we may target a 99.99% availability (approximately 52.56 minutes of downtime per year) or higher.
@@ -74,3 +74,4 @@ This hybrid approach allows us to harness the advantages of both SaaS and custom
 - Cost-effective architecture.
 - Maintenance and updates as per best practices.
 - Defined SLA metrics to ensure system availability.
+- Language proficiency considerations for effective communication during incidents and crises.
